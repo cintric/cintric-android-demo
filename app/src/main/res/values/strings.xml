@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">CintricDemo</string>
+    <string name="google_app_id">your-app-id</string>
 </resources>

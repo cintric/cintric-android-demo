@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:background="?android:attr/activatedBackgroundIndicator"
+    >
+
+    <TextView
+        android:id="@+id/visitTitle"
+        android:layout_alignBaseline="@+id/placeIcon"
+        android:layout_toEndOf="@+id/placeIcon"
+        android:layout_toRightOf="@+id/placeIcon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingStart="10dp"
+        android:paddingLeft="10dp"
+        android:paddingEnd="6dp"
+        android:paddingRight="6dp"
+        android:textSize="18sp"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/visitDetail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/visitTitle"
+        android:layout_toEndOf="@+id/placeIcon"
+        android:layout_toRightOf="@+id/placeIcon"
+        android:paddingEnd="6dp"
+        android:paddingRight="6dp"
+        android:paddingStart="10dp"
+        android:paddingLeft="10dp"
+        android:textSize="16sp"
+        android:textAppearance="?android:attr/textAppearanceListItemSmall" />
+
+    <ImageView
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:id="@+id/placeIcon"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/pin" />
+
+</RelativeLayout>
