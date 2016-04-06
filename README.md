@@ -17,3 +17,7 @@ https://cintric.com/docs/android#add-google-app-id
  
 5. Update your google_maps_api.xml resource file to contain your google maps API Key. 
 Follow the instructions here to get one https://developers.google.com/maps/documentation/android-api/start
+
+ 
+**The app will look something like this:**
+<img src="https://storage.googleapis.com/cdn.cintric.com/img/github/android-docs/cintric-android-demo-app-screenshot.png"  width="225" height="400" alt="Cintric Android Demo App Screenshot">
