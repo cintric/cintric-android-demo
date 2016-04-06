@@ -19,5 +19,6 @@ https://cintric.com/docs/android#add-google-app-id
 Follow the instructions here to get one https://developers.google.com/maps/documentation/android-api/start
 
  
-**The app will look something like this:**
-<img src="https://storage.googleapis.com/cdn.cintric.com/img/github/android-docs/cintric-android-demo-app-screenshot.png"  width="225" height="400" alt="Cintric Android Demo App Screenshot">
+**The app will look something like this:** 
+
+<img src="https://storage.googleapis.com/cdn.cintric.com/img/github/android-docs/cintric-android-demo-app-screenshot.png"  width="315" height="560" alt="Cintric Android Demo App Screenshot">
