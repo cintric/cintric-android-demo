@@ -34,6 +34,9 @@ public class MainActivity extends AbstractMapListActivity {
         // If you're targeting Android 6.0 (API level 23) or higher, call this method when you want to request location permission.
         Cintric.startCintricService(this, "YOUR-SDK-KEY", "YOUR-SECRET");
 
+        // If you want to sync a custom id call this method
+        Cintric.setUserCustomId(getApplicationContext(), "example_custom_id");
+
         // If you want to be notified of location updates implement the CintricEventHandler class
         new CintricEventHandler() {
 
